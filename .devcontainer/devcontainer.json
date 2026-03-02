@@ -16,5 +16,5 @@
   "remoteUser": "vscode",
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces,type=bind",
   "workspaceFolder": "/workspaces",
-  "postCreateCommand": "[ -f ~/.claude/.config.json ] || echo '{}' > ~/.claude/.config.json"
+  "postCreateCommand": "./setup.sh"
 }
